@@ -88,6 +88,9 @@ To avoid duplicating that approach and to achieve more modern, state-of-the-art 
 **References**
 
 [1]https://aws.amazon.com/blogs/machine-learning/techniques-for-automatic-summarization-of-documents-using-language-models/
+
 [2]https://www.irjmets.com/uploadedfiles/paper/issue_4_april_2023/37776/final/fin_irjmets1683222722.pdf
+
 [3]https://www.assemblyai.com/blog/text-summarization-nlp-5-best-apis
+
 [4]https://vfast.org/journals/index.php/VTSE/article/view/856
