@@ -76,14 +76,14 @@
 
 **Other Notes**
 
-There is an existing repository for the summarization task on Amazon Fine Food Reviews on GitHub. Here's the link for it,
+	There is an existing repository for the summarization task on Amazon Fine Food Reviews on GitHub. Here's the link for it,
 
-https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews/tree/master
+	https://github.com/Currie32/Text-Summarization-with-Amazon-Reviews/tree/master
 
-To avoid duplicating that approach and to achieve more modern, state-of-the-art results, we will be focusing on:
-    -   Transformer-based models (BART, T5, PEGASUS)
-    -   Better evaluation and possibly a multi-task or transfer learning approach
-    -   Cleaner, more efficient data pipelines and a modern framework (PyTorch or TensorFlow)
+	To avoid duplicating that approach and to achieve more modern, state-of-the-art results, we will be focusing on:
+	    -   Transformer-based models (BART, T5, PEGASUS)
+	    -   Better evaluation and possibly a multi-task or transfer learning approach
+	    -   Cleaner, more efficient data pipelines and a modern framework (PyTorch or TensorFlow)
 
 **References**
 
