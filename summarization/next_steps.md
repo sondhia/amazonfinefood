@@ -6,6 +6,7 @@ What’s Left / Next Steps
 2. Model and Decoding Improvements:
 	-	Model Size:
 	        -	Moving from t5-small to t5-base model
+  		-	Fine-tune GPT to compare results
 	-	Decoding Strategies:
 	        -	Experiment with beam search, top-k, or top-p sampling to potentially improve summary quality.
 	-	Post-Processing:
