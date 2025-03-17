@@ -1,3 +1,27 @@
+This repository contains code to fine-tune a model for summarization tasks using Hugging Face Transformers and PyTorch. The project focuses on generating summaries.
+
+## Overview
+
+- **Model:** T5-small (with potential to switch to T5-base if memory allows)
+- **Frameworks:** PyTorch, Hugging Face Transformers, evaluate, and NLTK
+- **Dataset:** 1000 rows split into 700 training and 300 validation samples
+- **Metrics:** ROUGE-1, ROUGE-2, ROUGE-L, and ROUGE-Lsum
+- **Decoding:** Greedy decoding with room for experimentation with beam search or other strategies
+
+## Project Structure
+
+- **Dataset Preparation:**  
+  - Preprocessing functions to clean and tokenize the data  
+  - Dataset split into training and validation sets
+
+- **Model Development:**  
+  - Loading T5-small with `T5ForConditionalGeneration` and its tokenizer  
+  - Custom training loop using `Seq2SeqTrainer`
+
+- **Training & Evaluation:**  
+  - Fine-tuning using `Seq2SeqTrainingArguments`
+  - Evaluation based on ROUGE metrics with additional qualitative assessments planned
+
 **Objective**
 
 - Sequence to sequence model
