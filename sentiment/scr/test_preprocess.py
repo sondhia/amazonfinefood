@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report
 file_path = "Final Project/Amazon_review.csv"
 
 #Take 10,000 rows for test
-df = pd.read_csv(file_path, nrows=1000)
+df = pd.read_csv(file_path, nrows=500)
 
 # Display basic information
 print(df.info())
