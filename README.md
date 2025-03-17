@@ -38,4 +38,4 @@ We have 2 models at the moment , sentiment and summarization model.
     logging_steps=50,
     predict_with_generate=True,
     generation_max_length=64,
-    generation_num_beams=1  # Greedy decoding; experiment with higher numbers if needed)
+    generation_num_beams=1  # Greedy decoding; experiment with higher numbers!)
